@@ -1,0 +1,26 @@
+name: Lightsail Deploy
+
+on:
+  push:
+    branches:
+      - v2
+
+jobs:
+  deploy:
+    runs-on: lightsail-thedijje
+    container: ubuntu-latest
+    env:
+      PROJECT_PATH: /home/bitnami/htdocs/itsdheeraj.me/
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Navigate to project directory
+      run: cd $PROJECT_PATH
+
+    - name: Git reset --hard
+      run: git reset --hard
+
+    - name: Git pull from branch v2
+      run: git pull origin v2
