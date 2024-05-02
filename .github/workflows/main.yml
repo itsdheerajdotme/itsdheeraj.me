@@ -23,4 +23,4 @@ jobs:
       run: git reset --hard
 
     - name: Git pull from branch v2
-      run: git pull origin v2
+      run: git pull origin v2 --no-ff
