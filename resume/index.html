@@ -11,39 +11,40 @@
           <meta name="robots" content="index, follow">
           <meta name="revisit-after" content="1 Week">
           <meta name="language" content="english">
-          <link rel="icon" type="image/png" href="https://thedijje.com/assets/img/display-picture-dheeraj-jha.png" />
+          <link rel="icon" type="image/png" href="https://itsDheeraj.me/assets/img/display-picture-dheeraj-jha.png" />
           <meta name="reply-to" content="dheeraj@thedijje.com">
           <meta name="web_author" content="Dheeraj jha"> 
           <meta name="copyright" content="Dheeraj thedijje">
           <meta name="google-site-verification" content="tU5lY4hDku0H-NIH5Ga984Kx_Mbm5TayCWMQSuqi5AY" />
       
         <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://thedijje.com">
+        <meta property="og:url" content="https://itsDheeraj.me">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Resume Dheeraj jha | DevOps Engineer, Fullstack PHP Developer, Photographer, Traveller & Explorer">
         <meta property="og:description" content="View/Download my resume | Hi, I am Dheeraj jha, DevOps Engineer and Software Architect with 7+ Years of experience. Connect me for your business need and advice for App backend, API, PHP/Codeigniter/eCommerce based web app/Web APIs for your mobile applications.">
-        <meta property="og:image" content="https://thedijje.com/assets/img/display-picture-dheeraj-jha.png">
+        <meta property="og:image" content="https://itsDheeraj.me/assets/img/display-picture-dheeraj-jha.png">
       
         <!-- Twitter Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
         <meta property="twitter:domain" content="thedijje.com">
-        <meta property="twitter:url" content="https://thedijje.com">
+        <meta property="twitter:url" content="https://itsDheeraj.me">
         <meta name="twitter:title" content="Resume | Dheeraj jha | DevOps Engineer, Fullstack PHP Developer, Photographer, Traveller & Explorer">
         <meta name="twitter:description" content="View or Download my resume | Hi, I am Dheeraj jha, DevOps Engineer and Software Architect with 7+ Years of experience. Connect me for your business need and advice for App backend, API, PHP/Codeigniter/eCommerce based web app/Web APIs for your mobile applications.">
-        <meta name="twitter:image" content="https://thedijje.com/assets/img/display-picture-dheeraj-jha.png">
+        <meta name="twitter:image" content="./assets/img/display-picture-dheeraj-jha.png">
       
         
         <!-- Favicons -->
-        <link href="https://thedijje.com/assets/img/display-picture-dheeraj-jha.png" rel="icon">
-        <link href="https://thedijje.com/assets/img/display-picture-dheeraj-jha.png" rel="apple-touch-icon">
+        <link href="https://itsDheeraj.me/assets/img/display-picture-dheeraj-jha.png" rel="icon">
+        <link href="https://itsDheeraj.me/assets/img/display-picture-dheeraj-jha.png" rel="apple-touch-icon">
       </head>
 <body style="padding:0px;margin:0px;">
     
+    <iframe class="resume_viewport" src="./../assets/document/Dheeraj-resume.pdf" frameborder="0"></iframe>
 
-    <div id="pdf-container">
-        <object id="pdf-object" data="../assets/document/Dheeraj-resume.pdf" class="resume_viewport" type="application/pdf">
-            <p>PDF viewer not available. <a href="../assets/document/Dheeraj-resume.pdf">Click here to view the PDF</a></p>
-        </object>
+    <div style="position:static;text-align:center;margin:20px auto; vertical-align:middle;display:none" class="redirect_prompt">
+        Redirecting to Resume PDF..
+        <br>
+        <p>else <a href="./../assets/document/Dheeraj-resume.pdf">click here</a></p>
     </div>
 
     <style>
@@ -54,10 +55,20 @@
     </style>
 
     <script>
-        window.onload = function() {
-            const pdfUrl = '../assets/document/Dheeraj-resume.pdf';
-                window.location.href = pdfUrl;
-        };
+        
+        function redirect_to_resume(){
+            window.location.href = './../assets/document/Dheeraj-resume.pdf';
+        }
+
+        if(isMobile()){
+            document.querySelector('.redirect_prompt').style.display = 'block';
+            redirect_to_resume();
+        }
+
+
+        function isMobile() {
+            return window.innerWidth < 768; // Example threshold, adjust as needed
+        }
     </script>
 
 </body>
