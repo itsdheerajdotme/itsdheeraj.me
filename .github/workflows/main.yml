@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted, itsdheerajdotme
+    runs-on: [self-hosted, itsdheerajdotme]
     container: ubuntu-latest
     env:
       PROJECT_PATH: /home/bitnami/htdocs/itsdheeraj.me/
