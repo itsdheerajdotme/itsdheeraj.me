@@ -1,0 +1,137 @@
+[
+    {
+        "title": "Get your first hands on with kubernetes with minikube",
+        "date": "2024-02-23",
+        "link": "https://thedijje.medium.com/get-your-first-hands-on-with-kubernetes-with-minikube-7b9d473170e2?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*R14Oy2HeqUpln2ft",
+        "description": "\nGet your first hands-on kubernetes with minikube\nPhoto by Growtika on UnsplashIf you are beginner, care to understand kubernetes components, and sinc...",
+        "tags": [
+            "devops",
+            "docker",
+            "minikube",
+            "kubernetes"
+        ]
+    },
+    {
+        "title": "Understanding deployments and StatefulSet : Kubernetes for beginners",
+        "date": "2023-09-03",
+        "link": "https://thedijje.medium.com/understanding-deployments-and-statefulset-kubernetes-for-beginners-9fa100d57dea?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*apm7WOurgXFMd_lv",
+        "description": "\nUnderstanding deployments and StatefulSet: Kubernetes for beginners\nIn this post, we will go through how replicas are managed/deployed and how the da...",
+        "tags": [
+            "kubernetes",
+            "docker",
+            "devops-practice",
+            "kubernetes-cluster",
+            "devops"
+        ]
+    },
+    {
+        "title": "Understanding kubernetes components: Kubernetes for beginners",
+        "date": "2023-09-03",
+        "link": "https://thedijje.medium.com/understanding-kubernetes-components-kubernetes-for-beginers-4ff9518d7b25?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*n-TAj66HLrEI8fed",
+        "description": "\nWe will explore various kubernetes components like pod, services, ingress, volumes etc in quick blogpost.\nPhoto by Growtika on Unsplash🖥️ Nodes\nLets...",
+        "tags": [
+            "devops",
+            "beginner",
+            "docker",
+            "kubernetes",
+            "networking"
+        ]
+    },
+    {
+        "title": "My experience with LaravelLive Jaipur meetup | Bonus: My talk slide",
+        "date": "2023-05-29",
+        "link": "https://thedijje.medium.com/slides-my-talk-on-performance-optimization-in-laravel-bdf3e253c821?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*nGmzDmolemmb4UFF",
+        "description": "\nMy experience with LaravelLive Jaipur’s first-ever meetup and launch of a community for Laravel India has been thrilling. Let’s go ahead with a quick...",
+        "tags": [
+            "meetup",
+            "web-development",
+            "community",
+            "laravel-development",
+            "jaipur"
+        ]
+    },
+    {
+        "title": "CloudMigration: How to Move your Data from AWS S3 to the Google Storage bucket using gsutil?",
+        "date": "2023-01-19",
+        "link": "https://thedijje.medium.com/cloudmigration-how-to-move-your-data-from-aws-s3-to-the-google-storage-bucket-using-gsutil-c56b379ceb40?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*UZOw44kWBaJtZ-F2",
+        "description": "\nPhoto by Chris Briggs on UnsplashThere are several ways to migrate data from AWS S3 to GCP, including:\n\nUsing the GCP Cloud Storage Transfer Service:...",
+        "tags": [
+            "aws",
+            "gcp",
+            "cloud-storage",
+            "data-migration",
+            "cloud-migration"
+        ]
+    },
+    {
+        "title": "Step by Step: Upgrade to PHP8.2 on Ubuntu 20",
+        "date": "2023-01-10",
+        "link": "https://medium.com/intelligent-computing/step-by-step-upgrade-to-php8-2-on-ubuntu-20-d3925a916f54?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*wGMQkr2EfelXiqTT",
+        "description": "\nPhoto by Gabriel Heinzer on UnsplashUpgrading to PHP 8.2 on Ubuntu 20.04 can be done in a few simple steps. Here’s a step-by-step guide to getting yo...",
+        "tags": [
+            "ubuntu",
+            "upgrade",
+            "php"
+        ]
+    },
+    {
+        "title": "Understanding Asset &amp; Risk model in Cyber security",
+        "date": "2021-09-09",
+        "link": "https://medium.com/intelligent-computing/understanding-asset-risk-model-in-cyber-security-5e4daf6a7fb1?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*fB-ytpxxslg1wHyE",
+        "description": "\nThis story will take you to layers of Assets and models in cyber security and where each elements, process, threats and security of your lies.\nPhoto ...",
+        "tags": [
+            "data-security",
+            "assets-risk-model",
+            "privacy-protection",
+            "risk-modeling",
+            "cybersecurity"
+        ]
+    },
+    {
+        "title": "Up and running your first Ruby on Rails app [with troubleshooting]",
+        "date": "2021-07-26",
+        "link": "https://medium.com/intelligent-computing/up-and-running-your-first-ruby-on-rails-app-with-troubleshooting-83e694d87605?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*GrF6iGswL3Vsmwdt",
+        "description": "\nRuby on Rails are build on top of many existing language and frameworks and running it is not as simple in first go. This might cause to loose intere...",
+        "tags": [
+            "installation",
+            "debugging",
+            "ruby",
+            "ruby-on-rails",
+            "troubleshooting"
+        ]
+    },
+    {
+        "title": "Is NoSQL is a better Alternative for SQL?",
+        "date": "2021-07-24",
+        "link": "https://medium.com/intelligent-computing/is-nosql-is-a-better-alternative-for-sql-cb3da351fb96?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/726/0*S1ibjfine4-BSLUu.png",
+        "description": "\nThe rise of the Internet has changed application development profoundly. The amount of data, the structure of the data, the scale of applications, th...",
+        "tags": [
+            "nosql",
+            "scale",
+            "mongodb"
+        ]
+    },
+    {
+        "title": "How to create swap memory on ubuntu and boost server performance?",
+        "date": "2021-03-11",
+        "link": "https://medium.com/intelligent-computing/how-to-create-swap-memory-on-ubuntu-and-boost-server-performance-65493d48ac21?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*TVZxtpLn9Jyb3VbjToLJig.png",
+        "description": "\nRunning multiple process and specially memory hungry resources can be challenging with limited Memory capacity. You can take less than 2 minute to ad...",
+        "tags": [
+            "ubuntu-server",
+            "memory-management",
+            "linux",
+            "how-to",
+            "swap"
+        ]
+    }
+]
