@@ -6,7 +6,7 @@ export default function Projects({ projects }) {
     return (
         <section id="work" className="py-5 bg-light-alt">
             <div className="container" data-aos="fade-up">
-                <h2 className="text-center fw-bold mb-5">Featured Work</h2>
+                <h2 className="text-center fw-bold mb-5 display-5">Featured <span className="text-accent">Work</span></h2>
                 <div className="row g-4">
                     {projects.map((project, index) => (
                         <div key={index} className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay={index * 100}>
