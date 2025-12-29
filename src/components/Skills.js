@@ -2,7 +2,7 @@ export default function Skills({ skills }) {
     return (
         <section id="skills" className="py-5 bg-light-alt">
             <div className="container" data-aos="fade-up">
-                <h2 className="text-center fw-bold mb-5">Skills & Expertise</h2>
+                <h2 className="text-center fw-bold mb-5 display-5">Skills & <span className="text-accent">Expertise</span></h2>
                 <div className="row g-4">
                     {
                         skills.map((skillGroup, index) => (

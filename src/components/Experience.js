@@ -2,7 +2,7 @@ export default function Experience({ experience }) {
     return (
         <section id="experience" className="py-5">
             <div className="container" data-aos="fade-up">
-                <h2 className="text-center fw-bold mb-5">Professional Experience</h2>
+                <h2 className="text-center fw-bold mb-5 display-5">Professional <span className="text-accent">Experience</span></h2>
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
                         <div className="timeline">
