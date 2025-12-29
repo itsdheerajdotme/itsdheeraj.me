@@ -10,14 +10,14 @@
             "github": "https://github.com/ItsDheeraj",
             "instagram": "https://instagram.com/ItsDheeraj.me",
             "twitter": "https://twitter.com/ItsDheerajDotMe",
-            "whatsapp": "https://wa.me/918826810280"
+            "whatsapp": "https://wa.me/qr/5XJ4RYXSYISOK1"
         },
         "resumeLink": "/resume"
     },
     "facts": [
         {
             "label": "Years of Experience",
-            "value": "7+"
+            "value": "9+"
         },
         {
             "label": "Happy Clients",
@@ -176,33 +176,39 @@
     ],
     "projects": [
         {
-            "title": "Portfolio Website",
-            "description": "My personal portfolio website showcasing my work and skills.",
+            "title": "Scalable AI Agents platform for Institutional investors",
+            "description": "Deployed full flegd highly scalable infrastructure for 50k+ Active users and scaling capacity upto 1M+",
             "techStack": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "Bootstrap"
-            ],
-            "link": "https://itsdheeraj.me"
-        },
-        {
-            "title": "E-Commerce Web App",
-            "description": "A scalable e-commerce platform built with PHP and CodeIgniter.",
-            "techStack": [
-                "PHP",
-                "CodeIgniter",
-                "MySQL"
+                "AWS",
+                "CI/CD",
+                "Auto-Scaling",
+                "Monitoring",
+                "Logging",
+                "Alerting",
+                "Auto-Healing"
             ],
             "link": "#"
         },
         {
-            "title": "API Backend for Mobile App",
-            "description": "Robust RESTful APIs designed for high-traffic mobile applications.",
+            "title": "Scaling of growing Event management platform",
+            "description": "With minimal change in code, used Devops and scalable system design to optimise the platform and scaled it to handle 100k+ users",
             "techStack": [
-                "Laravel",
                 "AWS",
-                "REST API"
+                "System Design",
+                "Multi-AZ scaling"
+            ],
+            "link": "#"
+        },
+        {
+            "title": "Courior processing platform for leading visa processing company",
+            "description": "Developed highly scalable infrastructure utilising IaC to process 100k+ couriers per day",
+            "techStack": [
+                "AWS",
+                "CI/CD",
+                "Auto-Scaling",
+                "Monitoring",
+                "Logging",
+                "Alerting"
             ],
             "link": "#"
         }
@@ -212,6 +218,11 @@
             "title": "Inteligent Computing",
             "summary": "My technical blog where I share knowledge about DevOps, Programming and more.",
             "link": "https://www.inteligentcomp.com/"
+        },
+        {
+            "title": "Medium @thedijje",
+            "summary": "My learning and writing journey continues on Medium.",
+            "link": "https://medium.com/@thedijje"
         }
     ],
     "services": [

@@ -1,6 +1,8 @@
 import Link from 'next/link';
 
 export default function Projects({ projects }) {
+    if (!projects || projects.length === 0) return null;
+
     return (
         <section id="work" className="py-5 bg-light-alt">
             <div className="container" data-aos="fade-up">
