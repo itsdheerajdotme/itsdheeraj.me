@@ -88,7 +88,7 @@ export default function Navbar({ profile }) {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto">
+                    <ul className="navbar-nav ms-auto align-items-center">
                         <li className="nav-item">
                             <a href="#about" className="nav-link" onClick={(e) => handleScroll(e, 'about')}>About</a>
                         </li>
@@ -106,6 +106,11 @@ export default function Navbar({ profile }) {
                         </li>
                         <li className="nav-item">
                             <a href="#contact" className="nav-link" onClick={(e) => handleScroll(e, 'contact')}>Contact</a>
+                        </li>
+                        <li className="nav-item ms-lg-3 d-none d-lg-block">
+                            <Link href="#booking" onClick={(e) => handleScroll(e, 'booking')} className="btn btn-primary btn-sm rounded-pill px-3">
+                                Book Call
+                            </Link>
                         </li>
                         <li className="nav-item ms-lg-3">
                             <button
