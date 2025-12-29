@@ -25,10 +25,18 @@ export const metadata = {
     },
 }
 
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import portfolioData from '@/data/portfolio.json';
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+                <Navbar profile={portfolioData.profile} />
+                {children}
+                <Footer profile={portfolioData.profile} />
+            </body>
         </html>
     )
 }

@@ -7,6 +7,20 @@ import 'aos/dist/aos.css';
 
 export default function Navbar({ profile }) {
     const [theme, setTheme] = useState('dark');
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleWindowScroll = () => {
+            if (window.scrollY > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleWindowScroll);
+        return () => window.removeEventListener('scroll', handleWindowScroll);
+    }, []);
 
     useEffect(() => {
         // Initialize AOS
@@ -34,6 +48,13 @@ export default function Navbar({ profile }) {
 
     const handleScroll = (e, targetId) => {
         e.preventDefault();
+
+        // If not on homepage, navigate to homepage section
+        if (typeof window !== 'undefined' && window.location.pathname !== '/') {
+            window.location.href = `/#${targetId}`;
+            return;
+        }
+
         const element = document.getElementById(targetId);
         if (element) {
             const offset = 80; // Navbar height
@@ -50,7 +71,7 @@ export default function Navbar({ profile }) {
     };
 
     return (
-        <nav className={`navbar navbar-expand-lg fixed-top ${theme === 'dark' ? 'navbar-dark' : 'navbar-light'}`}>
+        <nav className={`navbar navbar-expand-lg fixed-top ${theme === 'dark' ? 'navbar-dark' : 'navbar-light'} ${isScrolled ? 'scrolled shadow-sm' : ''}`} style={{ backgroundColor: 'var(--nav-bg)', backdropFilter: 'blur(12px)', transition: 'all 0.3s ease-in-out', zIndex: 1050 }}>
             <div className="container">
                 <Link href="/" className="navbar-brand fw-bold" onClick={(e) => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                     ItsDheeraj<span className="text-accent">.</span>me
@@ -81,7 +102,7 @@ export default function Navbar({ profile }) {
                             <a href="#work" className="nav-link" onClick={(e) => handleScroll(e, 'work')}>Work</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#blogs" className="nav-link" onClick={(e) => handleScroll(e, 'blogs')}>Blogs</a>
+                            <Link href="/blog" className="nav-link" onClick={(e) => window.scrollTo({ top: 0, behavior: 'smooth' })}>Blog</Link>
                         </li>
                         <li className="nav-item">
                             <a href="#contact" className="nav-link" onClick={(e) => handleScroll(e, 'contact')}>Contact</a>
