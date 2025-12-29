@@ -15,13 +15,13 @@ export const metadata = {
         url: 'https://itsdheeraj.me/',
         title: 'Dheeraj Jha | Senior DevOps Engineer & Software Architect',
         description: 'Senior DevOps Engineer & Software Architect with 9+ years of experience building and scaling, high-performance systems.',
-        images: ['./assets/hero-meta.png'],
+        images: ['./assets/hero-meta.jpg'],
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Dheeraj Jha | Senior DevOps Engineer & Software Architect',
         description: 'Senior DevOps Engineer & Software Architect with 9+ years of experience building and scaling, high-performance systems.',
-        images: ['./assets/hero-meta.png'],
+        images: ['./assets/hero-meta.jpg'],
     },
 }
 
