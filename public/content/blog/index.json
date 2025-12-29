@@ -1,0 +1,12 @@
+[
+    {
+        "slug": "hello-world",
+        "title": "Hello World: My First Blog Post",
+        "date": "2023-10-27",
+        "description": "This is a sample blog post demonstrating the markdown rendering capabilities.",
+        "tags": [
+            "General",
+            "Welcome"
+        ]
+    }
+]

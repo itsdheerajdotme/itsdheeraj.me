@@ -26,6 +26,7 @@ export default function Navbar({ profile }) {
     }, []);
 
     const toggleTheme = () => {
+        if (typeof window === 'undefined') return;
         const newTheme = theme === 'dark' ? 'light' : 'dark';
         setTheme(newTheme);
         document.documentElement.setAttribute('data-theme', newTheme);
@@ -34,6 +35,13 @@ export default function Navbar({ profile }) {
 
     const handleScroll = (e, targetId) => {
         e.preventDefault();
+
+        // If not on homepage, navigate to homepage section
+        if (window.location.pathname !== '/') {
+            window.location.href = `/#${targetId}`;
+            return;
+        }
+
         const element = document.getElementById(targetId);
         if (element) {
             const offset = 80; // Navbar height
@@ -80,11 +88,12 @@ export default function Navbar({ profile }) {
                         <li className="nav-item">
                             <a href="#work" className="nav-link" onClick={(e) => handleScroll(e, 'work')}>Work</a>
                         </li>
-                        <li className="nav-item">
-                            <a href="#blogs" className="nav-link" onClick={(e) => handleScroll(e, 'blogs')}>Blogs</a>
-                        </li>
+
                         <li className="nav-item">
                             <a href="#contact" className="nav-link" onClick={(e) => handleScroll(e, 'contact')}>Contact</a>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="/blog" className="nav-link" onClick={(e) => window.scrollTo({ top: 0, behavior: 'smooth' })}>Blog</Link>
                         </li>
                         <li className="nav-item ms-lg-3">
                             <button

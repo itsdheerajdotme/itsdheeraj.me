@@ -239,6 +239,14 @@ h6 {
   background-color: rgba(0, 0, 0, 0.03);
 }
 
+.hover-accent:hover {
+  color: var(--accent-light) !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .skill-tag:hover {
   border-color: var(--accent-color);
   color: var(--accent-color);
