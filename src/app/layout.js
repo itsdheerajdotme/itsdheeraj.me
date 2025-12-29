@@ -15,13 +15,13 @@ export const metadata = {
         url: 'https://itsdheeraj.me/',
         title: 'Dheeraj Jha | ☁️ AWS + DevOps | 🌿 Explorer & Learner',
         description: 'DevOps Engineer focused on cloud infrastructure, automation, and scalable systems—driven by curiosity, clarity, and real-world problem solving.',
-        images: ['./assets/hero-meta.jpg'],
+        images: ['https://itsdheeraj.me/assets/hero-meta.jpg'],
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Dheeraj Jha | ☁️ AWS + DevOps | 🌿 Explorer & Learner',
         description: 'DevOps Engineer focused on cloud infrastructure, automation, and scalable systems—driven by curiosity, clarity, and real-world problem solving.',
-        images: ['./assets/hero-meta.jpg'],
+        images: ['https://itsdheeraj.me/assets/hero-meta.jpg'],
     },
 }
 
