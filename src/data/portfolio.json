@@ -1,0 +1,231 @@
+{
+    "profile": {
+        "name": "Dheeraj Jha",
+        "title": "Senior DevOps Engineer & Software Architect",
+        "bio": "DevOps Engineer and Team Lead with 7+ years of experience specializing in AWS Cloud Infrastructure, CI/CD Automation, and Scalable Backend Architecture. I help organizations optimize their deployment workflows and build resilient, high-performance systems using Docker, Kubernetes, and Modern Web Technologies.",
+        "email": "contact@itsdheeraj.me",
+        "location": "Faridabad, IN",
+        "social": {
+            "linkedin": "https://linkedin.com/in/ItsDheerajDotMe",
+            "github": "https://github.com/ItsDheeraj",
+            "instagram": "https://instagram.com/ItsDheeraj.me",
+            "twitter": "https://twitter.com/ItsDheerajDotMe",
+            "whatsapp": "https://wa.me/918826810280"
+        },
+        "resumeLink": "/resume"
+    },
+    "facts": [
+        {
+            "label": "Years of Experience",
+            "value": "7+"
+        },
+        {
+            "label": "Happy Clients",
+            "value": "50+"
+        },
+        {
+            "label": "Projects",
+            "value": "100+"
+        }
+    ],
+    "skills": [
+        {
+            "category": "Backend",
+            "icon": "fa-server",
+            "items": [
+                "PHP",
+                "Python",
+                "Ruby"
+            ]
+        },
+        {
+            "category": "AWS",
+            "icon": "fa-cloud",
+            "items": [
+                "EC2",
+                "RDS",
+                "S3",
+                "ELB",
+                "Cloudfront",
+                "ES",
+                "AWS CLI",
+                "SES",
+                "SQS",
+                "Lightsail",
+                "Lambda",
+                "Cloudwatch",
+                "IAM"
+            ]
+        },
+        {
+            "category": "Frameworks",
+            "icon": "fa-layer-group",
+            "items": [
+                "Codeigniter",
+                "CakePHP",
+                "Laravel",
+                "Symfony",
+                "Flask",
+                "Ruby On Rails"
+            ]
+        },
+        {
+            "category": "Frontend",
+            "icon": "fa-code",
+            "items": [
+                "React",
+                "Vue",
+                "Javascript",
+                "Bootstrap",
+                "Tailwind CSS",
+                "UI/UX"
+            ]
+        },
+        {
+            "category": "Databases",
+            "icon": "fa-database",
+            "items": [
+                "MySQL",
+                "MongoDB"
+            ]
+        },
+        {
+            "category": "DevOps & Automation",
+            "icon": "fa-cogs",
+            "items": [
+                "Ansible",
+                "Jenkins",
+                "Gitlab-CI",
+                "CI/CD",
+                "Terraform",
+                "Cloudformation",
+                "Grafana",
+                "Prometheus"
+            ]
+        },
+        {
+            "category": "Tools & OS",
+            "icon": "fa-terminal",
+            "items": [
+                "Git",
+                "Apache2",
+                "Nginx",
+                "Linux",
+                "Ubuntu",
+                "RHEL",
+                "Mac",
+                "Windows"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "role": "Senior System Engineer",
+            "company": "EPAM Systems",
+            "duration": "Jul 2024 - Present",
+            "description": "Initiating as Sr System Engineer, working on range of DevOps assignments mostly containing AWS, Docker, Kubernetes, CI/CD, Jenkins, Kafka etc."
+        },
+        {
+            "role": "Career Break",
+            "company": "Professional Development",
+            "duration": "Mar 2024 - Jun 2024",
+            "description": "Professional development and career break."
+        },
+        {
+            "role": "DevOps Consultant",
+            "company": "Anant Technologies",
+            "duration": "Nov 2023 - Mar 2024",
+            "description": "Provided architectural solutions to small and medium infrastructure, effectively scaling costs. Identified pain points in infrastructure by understanding process flow and provided simple, use-case based solutions. Optimized different applications based on their specific use-cases. Streamlined CI/CD by setting up pipelines using Github Actions or Gitlab-ci. Diversified infrastructure by utilizing various AWS services tailored to specific use-cases. Set up logging, monitoring, and auto-recovery using tools such as Grafana, Prometheus, Ansible, and CloudWatch."
+        },
+        {
+            "role": "Devops & Software Engineering Lead",
+            "company": "Reevalo",
+            "duration": "Jan 2021 - Oct 2023",
+            "description": "Successfully migrated the entire operation to AWS, resulting in the establishment of a highly scalable infrastructure. Streamlined cloud and internal processes, leading to cost savings of 40-50% while effectively scaling operations. Achieved a 95% reduction in processing time by implementing a fully automated data processing system. Developed and implemented in-house central dashboards, resulting in time savings of 10-15 hours per developer and improving overall productivity by 30-40%. Enhanced API and Web Dashboard performance by 60-80%."
+        },
+        {
+            "role": "Software Development Team Lead",
+            "company": "GraphicsZoo",
+            "duration": "Aug 2020 - Dec 2020",
+            "description": "Led software development team. Technologies: Amazon Web Services (AWS), Linux System Administration, Team Leadership, Vue.js, Continuous Integration (CI), Git, PHP."
+        },
+        {
+            "role": "Senior Developer Project Lead",
+            "company": "CTE International pvt ltd",
+            "duration": "Aug 2017 - Aug 2020",
+            "description": "Successfully delivered the Mobi-hub platform. Planned, hired, and led a team of 15+ professionals. Increased scalability of the Magento application by optimizing traffic and speed using AWS resources. Developed an in-house inventory management system for B2B and B2C applications. Implemented a multi-tenant architecture."
+        },
+        {
+            "role": "Fullstack Web Developer",
+            "company": "Incisiv",
+            "duration": "Jan 2017 - Aug 2017",
+            "description": "Fullstack web development. Skills: Linux System Administration, JavaScript, MySQL, AJAX, Git."
+        },
+        {
+            "role": "Full stack PHP Developer",
+            "company": "Winculum",
+            "duration": "Nov 2015 - Aug 2017",
+            "description": "Took charge of the entire IT infrastructure and formulated a growth-oriented plan. Mastered various cloud platforms such as Digital Ocean, Cloudways, and AWS. Boosted sales and improved customer satisfaction by creating online analytics tools. Optimized research procedures, resulting in a 5-fold increase in customer delivery."
+        },
+        {
+            "role": "Sr. software developer",
+            "company": "Netmaxims Solutions",
+            "duration": "Jun 2015 - Nov 2015",
+            "description": "Initiated a shift in development methodology from Core PHP to a framework-based approach. Innovated in-house tools to boost productivity and established coding libraries, leading to a 30% acceleration in development processes. Contributed to several products and implemented an in-house CMS, resulting in a 60-70% reduction in project delivery time."
+        }
+    ],
+    "projects": [
+        {
+            "title": "Portfolio Website",
+            "description": "My personal portfolio website showcasing my work and skills.",
+            "techStack": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+            ],
+            "link": "https://itsdheeraj.me"
+        },
+        {
+            "title": "E-Commerce Web App",
+            "description": "A scalable e-commerce platform built with PHP and CodeIgniter.",
+            "techStack": [
+                "PHP",
+                "CodeIgniter",
+                "MySQL"
+            ],
+            "link": "#"
+        },
+        {
+            "title": "API Backend for Mobile App",
+            "description": "Robust RESTful APIs designed for high-traffic mobile applications.",
+            "techStack": [
+                "Laravel",
+                "AWS",
+                "REST API"
+            ],
+            "link": "#"
+        }
+    ],
+    "blogs": [
+        {
+            "title": "Inteligent Computing",
+            "summary": "My technical blog where I share knowledge about DevOps, Programming and more.",
+            "link": "https://www.inteligentcomp.com/"
+        }
+    ],
+    "services": [
+        {
+            "title": "DevOps Consulting",
+            "description": "CI/CD pipelines, Cloud Infrastructure, Automation."
+        },
+        {
+            "title": "Backend Development",
+            "description": "API development, Database design, System Architecture."
+        },
+        {
+            "title": "Web Application Development",
+            "description": "Full stack web application development using modern frameworks."
+        }
+    ]
+}
