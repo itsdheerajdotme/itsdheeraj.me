@@ -1,19 +1,39 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Footer({ profile }) {
+    const pathname = usePathname();
+
+    // Hide footer on resume page to ensure full-screen embed
+    if (pathname === '/resume') {
+        return null;
+    }
+
     return (
-        <footer className="py-4 bg-light-alt border-top border-secondary">
+        <footer className="footer py-4">
             <div className="container text-center">
                 <div className="mb-3">
                     {Object.entries(profile.social).map(([platform, link], index) => (
-                        <Link key={index} href={link} className="text-muted mx-3 fs-5 text-decoration-none" target="_blank" rel="noopener noreferrer">
-                            <i className={`fab fa-${platform}`}></i>
-                        </Link>
+                        <a
+                            key={index}
+                            href={link}
+                            className="social-icon mx-2"
+                            title={platform}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className={`fab fa-${platform} fa-2x`}></i>
+                        </a>
                     ))}
                 </div>
-                <p className="mb-0 text-muted small">
-                    &copy; {new Date().getFullYear()} {profile.name}. All rights reserved.
+                <p className="mb-0 text-muted">
+                    © {new Date().getFullYear()} {profile.name}. All rights reserved.
                 </p>
+                <small className="text-muted d-block mt-2">
+                    Looking for a DevOps Engineer? <a href={`mailto:${profile.email}`} className="text-accent">Let&apos;s Connect!</a>
+                </small>
             </div>
         </footer>
     );
