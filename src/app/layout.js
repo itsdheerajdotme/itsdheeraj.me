@@ -27,6 +27,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Scripts from '@/components/Scripts';
 import portfolioData from '@/data/portfolio.json';
 
 export default function RootLayout({ children }) {
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
             <body className={inter.className}>
                 <Navbar profile={portfolioData.profile} />
                 {children}
+                <Scripts />
                 <Footer profile={portfolioData.profile} />
             </body>
         </html>
