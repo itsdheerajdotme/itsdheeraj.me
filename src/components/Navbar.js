@@ -96,6 +96,12 @@ export default function Navbar({ profile }) {
                             <a href="#skills" className="nav-link" onClick={(e) => handleScroll(e, 'skills')}>Skills</a>
                         </li>
                         <li className="nav-item">
+                            <a href="#devtools" className="nav-link" onClick={(e) => handleScroll(e, 'devtools')}>
+                                <i className="fas fa-circle me-1 text-success"></i>
+                                Dev-Tools
+                            </a>
+                        </li>
+                        <li className="nav-item">
                             <a href="#experience" className="nav-link" onClick={(e) => handleScroll(e, 'experience')}>Experience</a>
                         </li>
                         <li className="nav-item">
@@ -107,11 +113,13 @@ export default function Navbar({ profile }) {
                         <li className="nav-item">
                             <a href="#contact" className="nav-link" onClick={(e) => handleScroll(e, 'contact')}>Contact</a>
                         </li>
+                        
                         <li className="nav-item ms-lg-3 d-none d-lg-block">
                             <Link href="#booking" onClick={(e) => handleScroll(e, 'booking')} className="btn btn-primary btn-sm rounded-pill px-3">
                                 Book Call
                             </Link>
                         </li>
+                        
                         <li className="nav-item ms-lg-3">
                             <button
                                 id="theme-toggle"

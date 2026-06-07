@@ -4,6 +4,7 @@ import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import BookingSection from '@/components/BookingSection';
 import BlogSection from '@/components/BlogSection';
+import DevtoolsSection from '@/components/DevtoolsSection';
 import Contact from '@/components/Contact';
 import portfolioData from '@/data/portfolio.json';
 
@@ -12,10 +13,11 @@ export default function Home() {
         <main>
             <Hero profile={portfolioData.profile} />
             <Skills skills={portfolioData.skills} />
+            <DevtoolsSection />
             <Experience experience={portfolioData.experience} />
             <Projects projects={portfolioData.projects} />
-            <BookingSection />
             <BlogSection />
+            <BookingSection />
             <Contact profile={portfolioData.profile} />
         </main>
     );
