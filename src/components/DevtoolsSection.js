@@ -13,7 +13,7 @@ export default function DevtoolsSection() {
                 </p>
 
                 <Link
-                    href="https://dev-tools.itsdheeraj.me?from=devtools-section"
+                    href="https://day2daydev.com?from=itsdheeraj.me"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary btn-lg px-5 rounded-pill shadow-lg"
