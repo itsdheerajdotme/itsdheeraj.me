@@ -8,6 +8,7 @@ export default function BlogSection() {
 
     if (displayPosts.length === 0) return null;
 
+    
     return (
         <section id="blogs" className="py-5">
             <div className="container">
