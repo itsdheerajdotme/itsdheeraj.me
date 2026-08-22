@@ -98,7 +98,7 @@ export default function Navbar({ profile }) {
                         <li className="nav-item">
                             <a href="#devtools" className="nav-link" onClick={(e) => handleScroll(e, 'devtools')}>
                                 <i className="fas fa-circle me-1 text-success"></i>
-                                Dev-Tools
+                                Day2DayDev
                             </a>
                         </li>
                         <li className="nav-item">
