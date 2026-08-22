@@ -18,10 +18,10 @@ export default function DevtoolsSection() {
                     rel="noopener noreferrer"
                     className="btn btn-primary btn-lg px-5 rounded-pill shadow-lg"
                 >
-                    <i className="fas fa-arrow-right me-2"></i> Explore Dev Tools
+                    <i className="fas fa-arrow-right me-2"></i> Explore Day2DayDev.com
                 </Link>
 
-                <p className="text-muted mt-4 mx-auto"><i className="fas fa-heart me-2 text-danger"></i>I&apos;d love to hear your feedback about the Dev-Tools!</p>
+                <p className="text-muted mt-4 mx-auto"><i className="fas fa-heart me-2 text-danger"></i>I&apos;d love to hear your feedback about the Day2DayDev!</p>
                 <p className="text-muted mt-3 small">All tools are completely free to use.</p>
             </div>
             <br></br>
