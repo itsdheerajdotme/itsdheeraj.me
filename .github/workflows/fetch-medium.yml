@@ -2,9 +2,14 @@ name: Fetch Medium Articles
 
 on:
   schedule:
-    - cron: "0 */4 * * *" # every 4 hours
+    - cron: "0 */4 * * *" # every 4 hours (00:00, 04:00, 08:00 ... UTC)
   workflow_dispatch: # manual trigger from GitHub UI
     inputs:
+      skip_cache:
+        description: Skip dependency cache and do a clean install
+        required: false
+        type: boolean
+        default: false
       commit_message:
         description: Custom commit message (optional)
         required: false
@@ -22,18 +27,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: v3
+          ref: main
           # Use a PAT if you want to trigger downstream workflows on the commit;
           # the default GITHUB_TOKEN push will NOT re-trigger push-based workflows.
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          # token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
+          # Cache handled manually below for skip_cache support
+
+      - name: Restore node_modules cache
+        if: github.event.inputs.skip_cache != 'true'
+        id: cache-node-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package.json', 'package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci
 
       - name: Fetch latest Medium articles
@@ -51,7 +67,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/medium.json
           git commit -m "${{ github.event.inputs.commit_message || 'chore: update Medium articles' }}"
-          git push origin v3
+          git push origin main
 
       - name: No changes detected
         if: steps.changes.outputs.changed != 'true'
@@ -66,5 +82,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'build.yml',
-              ref: 'v3',
+              ref: 'main',
             });
