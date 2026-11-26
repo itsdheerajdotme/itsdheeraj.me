@@ -1,10 +1,78 @@
 [
     {
+        "title": "I Used to Say You Can’t Mount S3. Here’s What Changed | Intelligent computing",
+        "date": "2026-11-25",
+        "link": "https://medium.com/intelligent-computing/i-used-to-say-you-cant-mount-s3-here-s-what-changed-intelligent-computing-4faf2112afcf?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*AU2FLzgflqGB-QKmpiBqyg.png",
+        "description": "What S3 Files does well, where it still bites, and who should skip it.IntroductionFor almost two decades, the rule on AWS was simple. S3 stores object...",
+        "tags": [
+            "aws",
+            "cloud-computing",
+            "devops",
+            "cloud-storage",
+            "ai-agent"
+        ]
+    },
+    {
+        "title": "How to Move DNS to Cloudflare Without Downtime (Painless Guide) | Intelligent computing",
+        "date": "2026-11-24",
+        "link": "https://medium.com/intelligent-computing/how-to-move-dns-to-cloudflare-without-downtime-painless-guide-intelligent-computing-14932b4f0cd3?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*zgkaYtjAn2aCBzNXwHb-Cw.png",
+        "description": "Changing nameservers feels risky. You’re swapping out the system that tells the internet where your website and email live, and one wrong move can tak...",
+        "tags": [
+            "web-development",
+            "cloudflare",
+            "devops",
+            "dns",
+            "cloud-computing"
+        ]
+    },
+    {
+        "title": "Bought a Domain? Connect It to Cloudflare First (8 Free Features) | Intelligent Computing",
+        "date": "2026-11-23",
+        "link": "https://medium.com/intelligent-computing/bought-a-domain-connect-it-to-cloudflare-first-8-free-features-intelligent-computing-7e92ccc9654c?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*1pCKml03EsBqoxqw.png",
+        "description": "Why I Connect Every New Domain to Cloudflare on Day One: 8 Free you Don’t want to miss| Intelligent computingYou buy a domain, point it at some hostin...",
+        "tags": [
+            "cybersecurity",
+            "cloud-computing",
+            "web-security",
+            "cloudflare"
+        ]
+    },
+    {
+        "title": "Build Your First n8n Automation in 15 Minutes (Docker + Telegram)",
+        "date": "2026-11-23",
+        "link": "https://thedijje.medium.com/build-your-first-n8n-automation-in-15-minutes-docker-telegram-b0ee81176e92?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*LN3Rby65pzYob1IVcatqfw.png",
+        "description": "Every morning I used to open five tabs just to see what happened in tech overnight. It was a small habit, but it ate time every single day. So I autom...",
+        "tags": [
+            "productivity",
+            "n8n",
+            "devops",
+            "automation",
+            "docker"
+        ]
+    },
+    {
+        "title": "Where Your AWS Bill Quietly Leaks (and 3 Ways to Fix It)",
+        "date": "2026-10-24",
+        "link": "https://awstip.com/where-your-aws-bill-quietly-leaks-and-3-ways-to-fix-it-3d406d589f75?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*OfluKxBo-90BKlX7",
+        "description": "Most teams know they’re overpaying. Fewer know where, or what to do first.Photo by Albert Stoynov on UnsplashNobody plans to overpay for AWS. It just ...",
+        "tags": [
+            "aws",
+            "cloud-cost-optimization",
+            "cost-optimization",
+            "finops"
+        ]
+    },
+    {
         "title": "DNA Data Storage: Could the Next Data Center Fit Inside a Test Tube?",
         "date": "2026-08-22",
         "link": "https://thedijje.medium.com/dna-data-storage-could-the-next-data-center-fit-inside-a-test-tube-e47b803b82a3?source=rss-85f9c7ed4cf6------2",
-        "thumbnail": "https://cdn-images-1.medium.com/max/2600/0*aL-xTddjKXAmUA1L",
-        "description": "Imagine storing the entire contents of AWS S3, Google Drive, YouTube archives, and the Internet Archive inside a container smaller than a&#x2026;",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*aL-xTddjKXAmUA1L",
+        "description": "Imagine storing the entire contents of AWS S3, Google Drive, YouTube archives, and the Internet Archive inside a container smaller than a coffee cup.A...",
         "tags": [
             "storage-solutions",
             "data-center-services",
@@ -27,7 +95,7 @@
     },
     {
         "title": "Understanding deployments and StatefulSet : Kubernetes for beginners",
-        "date": "2023-09-04",
+        "date": "2023-09-03",
         "link": "https://thedijje.medium.com/understanding-deployments-and-statefulset-kubernetes-for-beginners-9fa100d57dea?source=rss-85f9c7ed4cf6------2",
         "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*apm7WOurgXFMd_lv",
         "description": "Understanding deployments and StatefulSet: Kubernetes for beginnersIn this post, we will go through how replicas are managed/deployed and how the data...",
@@ -65,72 +133,6 @@
             "community",
             "laravel-development",
             "jaipur"
-        ]
-    },
-    {
-        "title": "CloudMigration: How to Move your Data from AWS S3 to the Google Storage bucket using gsutil?",
-        "date": "2023-01-19",
-        "link": "https://thedijje.medium.com/cloudmigration-how-to-move-your-data-from-aws-s3-to-the-google-storage-bucket-using-gsutil-c56b379ceb40?source=rss-85f9c7ed4cf6------2",
-        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*UZOw44kWBaJtZ-F2",
-        "description": "Photo by Chris Briggs on UnsplashThere are several ways to migrate data from AWS S3 to GCP, including:Using the GCP Cloud Storage Transfer Service: Th...",
-        "tags": [
-            "aws",
-            "gcp",
-            "cloud-storage",
-            "data-migration",
-            "cloud-migration"
-        ]
-    },
-    {
-        "title": "Step by Step: Upgrade to PHP8.2 on Ubuntu 20",
-        "date": "2023-01-10",
-        "link": "https://medium.com/intelligent-computing/step-by-step-upgrade-to-php8-2-on-ubuntu-20-d3925a916f54?source=rss-85f9c7ed4cf6------2",
-        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*wGMQkr2EfelXiqTT",
-        "description": "Photo by Gabriel Heinzer on UnsplashUpgrading to PHP 8.2 on Ubuntu 20.04 can be done in a few simple steps. Here’s a step-by-step guide to getting you...",
-        "tags": [
-            "ubuntu",
-            "upgrade",
-            "php"
-        ]
-    },
-    {
-        "title": "Understanding Asset & Risk model in Cyber security",
-        "date": "2021-09-09",
-        "link": "https://medium.com/intelligent-computing/understanding-asset-risk-model-in-cyber-security-5e4daf6a7fb1?source=rss-85f9c7ed4cf6------2",
-        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*fB-ytpxxslg1wHyE",
-        "description": "This story will take you to layers of Assets and models in cyber security and where each elements, process, threats and security of your lies.Photo by...",
-        "tags": [
-            "data-security",
-            "assets-risk-model",
-            "privacy-protection",
-            "risk-modeling",
-            "cybersecurity"
-        ]
-    },
-    {
-        "title": "Up and running your first Ruby on Rails app [with troubleshooting]",
-        "date": "2021-07-26",
-        "link": "https://medium.com/intelligent-computing/up-and-running-your-first-ruby-on-rails-app-with-troubleshooting-83e694d87605?source=rss-85f9c7ed4cf6------2",
-        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*GrF6iGswL3Vsmwdt",
-        "description": "Ruby on Rails are build on top of many existing language and frameworks and running it is not as simple in first go. This might cause to loose interes...",
-        "tags": [
-            "installation",
-            "debugging",
-            "ruby",
-            "ruby-on-rails",
-            "troubleshooting"
-        ]
-    },
-    {
-        "title": "Is NoSQL is a better Alternative for SQL?",
-        "date": "2021-07-24",
-        "link": "https://medium.com/intelligent-computing/is-nosql-is-a-better-alternative-for-sql-cb3da351fb96?source=rss-85f9c7ed4cf6------2",
-        "thumbnail": "https://cdn-images-1.medium.com/max/726/0*S1ibjfine4-BSLUu.png",
-        "description": "The rise of the Internet has changed application development profoundly. The amount of data, the structure of the data, the scale of applications, the...",
-        "tags": [
-            "nosql",
-            "scale",
-            "mongodb"
         ]
     }
 ]
