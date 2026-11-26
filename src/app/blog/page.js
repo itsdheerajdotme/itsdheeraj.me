@@ -56,6 +56,19 @@ export default function BlogListing() {
                         <p className="text-muted">No posts found. Check back later!</p>
                     </div>
                 )}
+
+                {posts.length > 0 && (
+                    <div className="text-center mt-5" data-aos="fade-up">
+                        <a
+                            href="https://medium.com/@thedijje"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline-light px-4 py-2"
+                        >
+                            Read More Posts <i className="fab fa-medium ms-2"></i>
+                        </a>
+                    </div>
+                )}
             </div>
         </main>
     );
