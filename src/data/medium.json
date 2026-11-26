@@ -1,5 +1,19 @@
 [
     {
+        "title": "How to Monitor Linux Network Traffic: 7 Easy Tools You Need in 2027 | Intelligent computing",
+        "date": "2026-11-26",
+        "link": "https://thedijje.medium.com/how-to-monitor-linux-network-traffic-7-easy-tools-you-need-in-2027-intelligent-computing-224a34bf399e?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*Cu5iDe0Xngel2TOocOgscw.png",
+        "description": "nload, nethogs and vnStat answer the three questions you ask when a server feels slow.Your server feels slow. Or the cloud bill shows a jump in data t...",
+        "tags": [
+            "devops",
+            "sysadmin",
+            "linux",
+            "command-line",
+            "networking"
+        ]
+    },
+    {
         "title": "I Used to Say You Can’t Mount S3. Here’s What Changed | Intelligent computing",
         "date": "2026-11-25",
         "link": "https://medium.com/intelligent-computing/i-used-to-say-you-cant-mount-s3-here-s-what-changed-intelligent-computing-4faf2112afcf?source=rss-85f9c7ed4cf6------2",
@@ -119,20 +133,6 @@
             "docker",
             "kubernetes",
             "networking"
-        ]
-    },
-    {
-        "title": "My experience with LaravelLive Jaipur meetup | Bonus: My talk slide",
-        "date": "2023-05-29",
-        "link": "https://thedijje.medium.com/slides-my-talk-on-performance-optimization-in-laravel-bdf3e253c821?source=rss-85f9c7ed4cf6------2",
-        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*nGmzDmolemmb4UFF",
-        "description": "My experience with LaravelLive Jaipur’s first-ever meetup and launch of a community for Laravel India has been thrilling. Let’s go ahead with a quick ...",
-        "tags": [
-            "meetup",
-            "web-development",
-            "community",
-            "laravel-development",
-            "jaipur"
         ]
     }
 ]
