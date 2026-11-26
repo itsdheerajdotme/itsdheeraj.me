@@ -63,7 +63,7 @@ export default function BlogListing() {
                             href="https://medium.com/@thedijje"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="btn btn-outline-light px-4 py-2"
+                            className="btn btn-primary btn-lg px-4 rounded-pill"
                         >
                             Read More Posts <i className="fab fa-medium ms-2"></i>
                         </a>
