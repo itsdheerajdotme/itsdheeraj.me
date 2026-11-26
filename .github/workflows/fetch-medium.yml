@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: v3
           # Use a PAT if you want to trigger downstream workflows on the commit;
           # the default GITHUB_TOKEN push will NOT re-trigger push-based workflows.
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
@@ -51,7 +51,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/medium.json
           git commit -m "${{ github.event.inputs.commit_message || 'chore: update Medium articles' }}"
-          git push origin main
+          git push origin v3
 
       - name: No changes detected
         if: steps.changes.outputs.changed != 'true'
@@ -66,5 +66,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'build.yml',
-              ref: 'main',
+              ref: 'v3',
             });
