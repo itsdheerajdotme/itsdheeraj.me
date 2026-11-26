@@ -3,10 +3,10 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - v3
   pull_request:
     branches:
-      - main
+      - v3
   workflow_call: # allow other workflows to trigger this
 
 jobs:
