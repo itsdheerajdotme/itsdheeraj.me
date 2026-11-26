@@ -10,6 +10,10 @@ export const metadata = {
     description: 'Portfolio of Dheeraj Jha, a DevOps Engineer focused on cloud infrastructure, automation, and scalable systems—driven by curiosity, clarity, and real-world problem solving.',
     keywords: 'Dheeraj Jha, DevOps Engineer, Software Architect, AWS, CI/CD, Docker, Kubernetes, PHP, Python, Full Stack Developer, Faridabad',
     authors: [{ name: 'Dheeraj Jha' }],
+    icons: {
+        icon: '/assets/images/DJ-favicon-circle.png',
+        apple: '/assets/images/DJ-favicon-circle.png',
+    },
     openGraph: {
         type: 'website',
         url: 'https://itsdheeraj.me/',
