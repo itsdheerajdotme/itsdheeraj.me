@@ -22,6 +22,7 @@ jobs:
 
     permissions:
       contents: write # needed to push commits
+      actions: write  # needed to dispatch build workflow
 
     steps:
       - name: Checkout repository
