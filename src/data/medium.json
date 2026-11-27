@@ -1,5 +1,19 @@
 [
     {
+        "title": "10 Free Cloudflare Security Settings to Protect Your Website | Intelligent Computing",
+        "date": "2026-11-27",
+        "link": "https://medium.com/intelligent-computing/10-free-cloudflare-security-settings-to-protect-your-website-intelligent-computing-5ce5826a7e3e?source=rss-85f9c7ed4cf6------2",
+        "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*3qAHkqtkddEDnn_5qS5KFg.png",
+        "description": "Once your domain is on Cloudflare, you get protection by default. But a few of the most useful settings are off until you turn them on.Here are 10 Clo...",
+        "tags": [
+            "cloud-security",
+            "web-security",
+            "rate-limiting",
+            "cloudflare",
+            "waf"
+        ]
+    },
+    {
         "title": "How to Monitor Linux Network Traffic: 7 Easy Tools You Need in 2027 | Intelligent computing",
         "date": "2026-11-26",
         "link": "https://thedijje.medium.com/how-to-monitor-linux-network-traffic-7-easy-tools-you-need-in-2027-intelligent-computing-224a34bf399e?source=rss-85f9c7ed4cf6------2",
@@ -119,20 +133,6 @@
             "devops-practice",
             "kubernetes-cluster",
             "devops"
-        ]
-    },
-    {
-        "title": "Understanding kubernetes components: Kubernetes for beginners",
-        "date": "2023-09-03",
-        "link": "https://thedijje.medium.com/understanding-kubernetes-components-kubernetes-for-beginers-4ff9518d7b25?source=rss-85f9c7ed4cf6------2",
-        "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*n-TAj66HLrEI8fed",
-        "description": "We will explore various kubernetes components like pod, services, ingress, volumes etc in quick blogpost.Photo by Growtika on Unsplash🖥️ NodesLets fi...",
-        "tags": [
-            "devops",
-            "beginner",
-            "docker",
-            "kubernetes",
-            "networking"
         ]
     }
 ]
